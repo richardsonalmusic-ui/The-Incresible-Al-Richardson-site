@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Incredible Al Richardson | Official Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The Incredible Al Richardson – Dublin alt/indie rock singer–songwriter. Listen to Man Made and more on Spotify, Apple Music, and YouTube." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Incredible Al Richardson" />
+  <meta property="og:description" content="Dublin alt/indie rock singer–songwriter. New music, live dates, and more." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-main">The Incredible</span>
+        <span class="logo-sub">Al Richardson</span>
+      </div>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#music">Music</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="hero-kicker">Alt / Indie Rock · Dublin</p>
+          <h1>The Incredible<br><span>Al Richardson</span></h1>
+          <p class="hero-subtitle">
+            Singer–songwriter blending Mod roots, ’90s British guitar influences,
+            and classic storytelling.
+          </p>
+          <div class="hero-cta">
+            <a class="btn primary" href="https://open.spotify.com/artist/3gs87phRRPYDPcDlBGvKdJ?si=d6bFjuI8S6i92HvCmZio1g" target="_blank" rel="noopener">
+              Listen on Spotify
+            </a>
+            <a class="btn ghost" href="#music">
+              New music & releases
+            </a>
+          </div>
+          <div class="social-links">
+            <a href="https://open.spotify.com/artist/3gs87phRRPYDPcDlBGvKdJ?si=d6bFjuI8S6i92HvCmZio1g" target="_blank" rel="noopener">Spotify</a>
+            <span>•</span>
+            <a href="https://music.apple.com/ie/artist/al-richardson/1802065524" target="_blank" rel="noopener">Apple Music</a>
+            <span>•</span>
+            <a href="https://www.instagram.com/the.incredible_al_richardson?igsh=dHZhdTZya20yczB4&utm_source=qr" target="_blank" rel="noopener">Instagram</a>
+            <span>•</span>
+            <a href="https://youtube.com/@alrichardson-k9x?si=1SgYpzEmsTmU-mRY" target="_blank" rel="noopener">YouTube</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <!-- Replace this with an actual promo/live photo -->
+          <div class="hero-photo-placeholder">
+            <span>Promo photo<br>placeholder</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>About</h2>
+          <p>Dublin singer–songwriter · alt / indie rock</p>
+        </div>
+        <div class="two-column">
+          <div>
+            <p>
+              Dublin singer–songwriter <strong>“The Incredible Al Richardson”</strong> blends Mod roots,
+              ’90s British guitar influences, and classic storytelling to craft a sound shaped by
+              decades of musical discovery.
+            </p>
+            <p>
+              After emerging on the Dublin scene in the 2000s and returning to writing in 2023,
+              he has recorded a new collection of tracks — including <em>Man Made</em>, featuring a standout
+              guitar performance from Ocean Colour Scene’s <strong>Steve Cradock</strong>.
+            </p>
+          </div>
+          <div>
+            <p>
+              With fresh material planned for 2026 and a renewed presence on the live circuit,
+              Richardson steps back into the spotlight with a voice that’s both seasoned and
+              unmistakably his own.
+            </p>
+            <p class="about-highlight">
+              Watch this space for new releases, gigs, and stories from the road.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MUSIC / RELEASES -->
+    <section id="music" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Music</h2>
+          <p>Latest releases & selected tracks</p>
+        </div>
+
+        <div class="featured-release">
+          <div class="featured-artwork">
+            <!-- Replace with actual cover art -->
+            <div class="artwork-placeholder">
+              <span>Man Made<br>Artwork</span>
+            </div>
+          </div>
+          <div class="featured-info">
+            <h3>Man Made</h3>
+            <p class="tagline">
+              Featuring Steve Cradock (Ocean Colour Scene)
+            </p>
+            <p>
+              Gritty alt rock guitars, a driving rhythm section, and a lyric that looks
+              squarely at what we build — and what breaks — along the way.
+            </p>
+            <div class="streaming-buttons">
+              <a class="btn primary"
+                 href="https://open.spotify.com/artist/3gs87phRRPYDPcDlBGvKdJ?si=d6bFjuI8S6i92HvCmZio1g"
+                 target="_blank" rel="noopener">
+                Play on Spotify
+              </a>
+              <a class="btn"
+                 href="https://music.apple.com/ie/artist/al-richardson/1802065524"
+                 target="_blank" rel="noopener">
+                Play on Apple Music
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="release-grid">
+          <!-- Example cards – you can duplicate and change titles/descriptions -->
+          <article class="release-card">
+            <h4>The Crossings</h4>
+            <p>
+              A reflective, melodic cut that traces the lines between past and present,
+              hometown streets and the pull to move on.
+            </p>
+            <div class="card-links">
+              <a href="https://open.spotify.com/artist/3gs87phRRPYDPcDlBGvKdJ?si=d6bFjuI8S6i92HvCmZio1g" target="_blank" rel="noopener">Spotify</a>
+              <span>•</span>
+              <a href="https://music.apple.com/ie/artist/al-richardson/1802065524" target="_blank" rel="noopener">Apple Music</a>
+              <span>•</span>
+              <a href="https://youtube.com/@alrichardson-k9x?si=1SgYpzEmsTmU-mRY" target="_blank" rel="noopener">YouTube</a>
+            </div>
+          </article>
+
+          <article class="release-card">
+            <h4>More Coming 2026</h4>
+            <p>
+              New material is in the works — keep an ear out for fresh tracks, live
+              sessions, and collaborations rolling out from 2026.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Gallery</h2>
+          <p>Live shots, studio moments & more</p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Replace the placeholders with real <img> tags -->
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <span>Live shot</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <span>Studio</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <span>Promo</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <span>On the road</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Bookings, press & general enquiries</p>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-text">
+            <p>
+              For bookings, press, or anything else, drop a line to:
+            </p>
+            <p class="contact-email">
+              <a href="mailto:info@theincrediblealrichardson.ie">
+                info@theincrediblealrichardson.ie
+              </a>
+            </p>
+            <p>
+              You can also reach out via
+              <a href="https://www.instagram.com/the.incredible_al_richardson?igsh=dHZhdTZya20yczB4&utm_source=qr" target="_blank" rel="noopener">Instagram</a>.
+            </p>
+          </div>
+
+          <form class="contact-form" action="mailto:info@theincrediblealrichardson.ie" method="post" enctype="text/plain">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button type="submit" class="btn primary">Send message</button>
+            <p class="form-note">
+              This form uses your email app to send the message.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> The Incredible Al Richardson</p>
+      <div class="footer-links">
+        <a href="https://open.spotify.com/artist/3gs87phRRPYDPcDlBGvKdJ?si=d6bFjuI8S6i92HvCmZio1g" target="_blank" rel="noopener">Spotify</a>
+        <a href="https://music.apple.com/ie/artist/al-richardson/1802065524" target="_blank" rel="noopener">Apple Music</a>
+        <a href="https://youtube.com/@alrichardson-k9x?si=1SgYpzEmsTmU-mRY" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.instagram.com/the.incredible_al_richardson?igsh=dHZhdTZya20yczB4&utm_source=qr" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const mainNav = document.getElementById('mainNav');
+
+    navToggle.addEventListener('click', () => {
+      mainNav.classList.toggle('open');
+    });
+
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const targetId = this.getAttribute('href').substring(1);
+        const target = document.getElementById(targetId);
+        if (target) {
+          e.preventDefault();
+          const topOffset = document.querySelector('.site-header').offsetHeight;
+          const elementPosition = target.getBoundingClientRect().top + window.scrollY;
+          const offsetPosition = elementPosition - topOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+
+          // Close mobile nav after click
+          mainNav.classList.remove('open');
+        }
+      });
+    });
+
+    // Current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
